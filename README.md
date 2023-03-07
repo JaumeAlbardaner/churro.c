@@ -12,7 +12,7 @@ For this purpose I relied on Processing, a very simple tool for a project that I
 <img src="https://jaumealbardaner.github.io/assets/img/portfolio/churro/churro-gif.gif" width="250" height="250"/>
 </p>
 
-More info in: https://jaumealbardaner.github.io/pages/portfolio/Churro.html
+For more information on the making-of of this project, check out my website: https://jaumealbardaner.github.io/pages/portfolio/Churro.html
 
 ## Files:
 
