@@ -28,12 +28,12 @@ void draw(){
   int m = millis(); //Current time
   float x,y,z, L;  //Declare coords & Light
   float R1 = 0, R2 = 130;
-  for(float ph = 0; ph<PI*2; ph = ph+PI/200){
+  for(float ph = -PI/3; ph<PI/2; ph = ph+PI/200){
     for (float tmp = 0; tmp < p; tmp = tmp+0.1) {     
       
          R1 = r1 + r2/PI*asin(sin(2*PI*tmp));
          float th = tmp/p*2*PI;
-         x = 250 + (R2 + R1*cos(th))*(cos(B*m)*cos(ph)+sin(A*m)*sin(B*m)*sin(ph))-R1*cos(A*m)*sin(B*m)*sin(th); //R2*2 needed for elongation
+         x = 250 + (R2*1.5 + R1*cos(th))*(cos(B*m)*cos(ph)+sin(A*m)*sin(B*m)*sin(ph))-R1*cos(A*m)*sin(B*m)*sin(th); //R2*2 needed for elongation
          y = 250 +(R2 + R1*cos(th))*(cos(ph)*sin(B*m)-cos(B*m)*sin(A*m)*sin(ph))+R1*cos(A*m)*cos(B*m)*sin(th);
          z = -(cos(A*m)*(R2+R1*cos(th))*sin(ph)+R1*sin(A*m)*sin(th));
          
